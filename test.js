@@ -1,0 +1,14 @@
+// let a=10;
+// let b=20;
+// console.log(a>b);
+// console.log(a>=b);
+// console.log(a<b);
+// console.log(a<=b);
+// console.log(a==b);
+// console.log(a===b);
+// console.log(a!=b);
+a=10;
+b=20;
+c=2;
+let res=(a>b && a>c)?"a is bigger":(b>c)?"b is bigger":"c is bigger";
+console.log(res);
